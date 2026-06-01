@@ -1,0 +1,19 @@
+Para poder ejecutar el proyecto en Python debemos:
+
+1. Clonar este repositorio:
+git clone https://github.com/usuario/proyecto-segmentacion-dron-rgb
+cd proyecto-segmentacion-dron-rgb
+
+2. Instalar las dependencias:
+pip install -r requirements.txt
+Colocar las imágenes RGB del dron en la carpeta del proyecto:
+mkdir data/DronRGB
+cp /ruta/de/tus/imagenes/*.jpg data/DronRGB/
+
+3. Verificar que las imágenes estén correctamente ubicadas:
+ls data/DronRGB/
+
+4. Ejecutar el notebook o script principal:
+jupyter notebook PROYECTO_3_PROCESAMIENTO_DE_SEÑALES.ipynb
+o directamente:
+python segmentacion_piscinas.py
