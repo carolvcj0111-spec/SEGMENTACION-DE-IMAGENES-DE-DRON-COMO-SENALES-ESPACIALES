@@ -7,7 +7,7 @@ cd proyecto-segmentacion-dron-rgb
 2. Instalar las dependencias:
 pip install -r requirements.txt
 
-3.Colocar las imágenes RGB del dron en la carpeta del proyecto:
+3. Colocar las imágenes RGB del dron en la carpeta del proyecto:
 mkdir data/DronRGB
 cp /ruta/de/tus/imagenes/*.jpg data/DronRGB/
 
